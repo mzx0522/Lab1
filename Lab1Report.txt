@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 we are diffrent
+=======
+
+>>>>>>> C4
 
 Please read README.txt
 

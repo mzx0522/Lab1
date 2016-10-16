@@ -122,7 +122,7 @@ public class C1 {
 				fact=input.next();
 				if(str1.indexOf(fact)!=-1)
 				{
-					System.out.println("姹傚缁撴灉涓�:");
+					System.out.println("result is:");
 					Analyst(str1,fact);
 				}
 				else
