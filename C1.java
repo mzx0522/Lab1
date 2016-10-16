@@ -1,4 +1,4 @@
-package work1;
+﻿package work1;
 import java.util.Scanner;
 public class C1 {
 	public static void Derivation(StringBuffer beforeD,String x)//
@@ -134,7 +134,7 @@ public class C1 {
 			{
 				str1.delete(0,str1.length());
 				str1.append(str2);
-				System.out.println("鎮ㄨ緭鍏ョ殑澶氶」寮忔槸:");
+				System.out.println("result:");
 				System.out.println(str1);
 			}
 			str2.delete(0, str2.length());
