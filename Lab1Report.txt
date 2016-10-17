@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 we are diffrent
 =======
 
 >>>>>>> C4
+=======
+
+>>>>>>> B2
 
 Please read README.txt
 

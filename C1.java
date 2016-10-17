@@ -134,7 +134,11 @@ public class C1 {
 			{
 				str1.delete(0,str1.length());
 				str1.append(str2);
+<<<<<<< HEAD
 				System.out.println("result:");
+=======
+				System.out.println("result:");
+>>>>>>> B2
 				System.out.println(str1);
 			}
 			str2.delete(0, str2.length());
