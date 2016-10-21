@@ -88,8 +88,8 @@ public class C1 {
 		StringBuffer str1= new StringBuffer(), str2 = new StringBuffer();
 		String fact,op,fu;
 		int i=0,a=0;
-		System.out.println("Please input the polynomial:");
-		System.out.println("Please input the variable to be derivated which must be included x,y,z");
+		System.out.println("请输入多项式:");
+		System.out.println("请输入要求导的变量:x,y,z");
 		str1.append(input.next());
 		str2.append(str1);
 		op=str2.toString();
@@ -122,7 +122,7 @@ public class C1 {
 				fact=input.next();
 				if(str1.indexOf(fact)!=-1)
 				{
-					System.out.println("result is:");
+					System.out.println("result:");
 					Analyst(str1,fact);
 				}
 				else
@@ -134,11 +134,7 @@ public class C1 {
 			{
 				str1.delete(0,str1.length());
 				str1.append(str2);
-<<<<<<< HEAD
 				System.out.println("result:");
-=======
-				System.out.println("result:");
->>>>>>> B2
 				System.out.println(str1);
 			}
 			str2.delete(0, str2.length());
