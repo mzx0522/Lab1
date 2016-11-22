@@ -1,7 +1,7 @@
 ﻿package work1;
 import java.util.Scanner;
 public class C1 {
-	public static void Derivation(StringBuffer beforeD,String x)//
+	public static void Derivation(StringBuffer beforeD,String x)//lab5testing
 	{
 		StringBuffer afterD=new StringBuffer();
 		int count=0;
@@ -28,7 +28,7 @@ public class C1 {
 		{
 			afterD.append("1");
 		}
-		else if(count!=1)//
+		else if(count!=1)//change the fix
 		{
 			afterD.append(Integer.toString(count));
 			for(i=0;i<count-1;i++)
@@ -52,7 +52,7 @@ public class C1 {
 		}
 		for(i=1;i<afterD.length();i++)
 		{
-			//
+			//change fix 
 			if(afterD.charAt(i)=='*'& i==afterD.length()-1)
 			{
 				afterD.deleteCharAt(i);
