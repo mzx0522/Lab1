@@ -36,7 +36,7 @@ public class C1 {
 				afterD.append(x);
 			}
 		}
-		//
+		//added loop
 		for(i=0;i<afterD.length()-1;i++)
 		{
 			//
