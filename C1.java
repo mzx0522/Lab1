@@ -4,6 +4,7 @@ public class C1 {
 	public static void Derivation(StringBuffer beforeD,String x)//lab5testing
 	{
 		StringBuffer afterD=new StringBuffer();
+                StringBuffer afterD=new StringBuffer();
 		int count=0;
 		int i;
 		char item;
@@ -20,6 +21,20 @@ public class C1 {
 				afterD.append(item);
 			}
 		}
+//
+		for(i=0;i<beforeD.length();i++)
+		{
+			item=beforeD.charAt(i);
+			if(item==x.charAt(0))
+			{
+				count++;
+			}
+			else if(item!='*')
+			{
+				afterD.append(item);
+			}
+		}
+		if(count==0)//
 		if(count==0)//
 		{
 			afterD.delete(0, afterD.length());
